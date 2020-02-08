@@ -1,7 +1,7 @@
 ﻿# Hanna Sadouskaya
 
 ####
-* +375 29 810-**-**
+* +375 29 810 -- --
 * <dev.asadovskaya@gmail.com>
 * Skype: ann.sadovska
 * Telegram : cap_it_ann
@@ -36,7 +36,23 @@ function fancyAlert(arg) {
 ```
 
 ## Experience
+November 2014 – July 2017 </br>
+**Fintech Development Company** </br>
+Software developer
+Backend developer in financial and banking area for Belarusian banks. Work experience during projects life-cycle. Bugfixing experience. Technical documentation preparation.
+
+August 2017 – till now </br>
+**Outsorce Software Development Company** </br>
+Software developer
+Java backend developer in services for Insurance and vehicle remarketing industries.
 
 ## Education
+2016 **Belarus State University of Informatics and Radioelectronics**
+Bachelor Degree. Faculty of Computer Systems and Networks. Specialization – software-engineer
+
+2014 **Java course**
+ITechArt. Basic Java language. Development methodology. OOP. Arrays. Conditions. Methods. Java Bean. Collections. Interfaces. JDBC. MVC model. Maven. Git. JSP. MySQL. XML. Hibernate.
 
 ## English
+2014-2015 **English course at BSUIR** </br>
+Intermediate level. Strong level of reading and understanding.
