@@ -2,14 +2,91 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>CV</title>
 </head>
 
 <body>
-    <header>
-        <h1>Hanna Sadouskaya</h1>
+    <header class="personal-info">
+        <img class="person-img" src="img/cv.jpg" width="150" height="150" alt="cv_image">
+        <article class="person-text">
+            <h1>Hanna Sadouskaya</h1>
+            <ui class="contacts">
+                <li>+375 29 810 -- --</li>
+                <li>dev.asadovskaya@gmail.com</li>
+                <li>Skype: ann.sadovska</li>
+                <li>Telegram : cap_it_ann</li>
+            </ui>
+        </article>
     </header>
+    <main>
+        <article class="summary">
+            <h1>Summary</h1>
+            <p>Industry Experience: Financial Services, Banking, Vehicle auction, Insurance. 3+ years of experience as Java Backend developer. </br>
+                Experience in third-party systems integration (Telegram API, Skype API, VK API, Facebook API), API development for mobile and web apps. </br>
+                Architecting components and solutions, development of UI, backend-side validation, database design, performance testing. </br>
+                A good team player. You can check it when I play valleyball and basketball. Have good social skills. 
+                </br>
+                </br>
+                <span class="bold">Passion to learn new things offered to try myself in a fullstack development.</span>
+            </p>
+        </article>
+        <article class="skills">
+            <h1>Skills and knowledge</h1>
+            <ul>
+                <li>Database: Oracle, MySQL, SQL Server</li>
+                <li>Languages & Scripting: Java EE, JavaFX</li>
+                <li>Web Servers: Apache Tomcat, GlassFish</li>
+                <li>Analysis & Design Tools: Enterprise Architect, Rational Rose, MS Visio, JavaFX Scene Builder</li>
+                <li>Framework: Primefaces, JSF</li>
+                <li>Version control systems: Git</li>
+                <li>Task management systems: Redmine, GIRA</li>
+                <li>Other: JMeter, Putty, WinSCP, Toad.</li>
+                <li>Technical Experience: ORM, RestFull, XML, Maven, Design Patterns, JDBC, JPA, Log4j, Java SE, Web Socket</li>
+            </ul>
+        </article>
+        <article class="code">
+            <h1>Code examples</h1>
+            <pre><code>
+function fancyAlert(arg) {
+    if(arg) {
+        $.facebox({div:'#foo'})
+    }
+}
+            </code>
+            </pre>
+        </article>
+        <article class="experience">
+            <h1>Experience</h1>
+            <p><span class="italic">November 2014 – July 2017</span></br>
+                <span class="bold">Fintech Development Company</span></br>
+                Software developer Backend developer in financial and banking area for Belarusian banks. Work experience during projects life-cycle.</br>
+                Bugfixing experience. Technical documentation preparation.
+                </br></br>
+                <span class="italic">August 2017 – till now</span></br>
+                <span class="bold">Outsorce Software Development Company</span></br>
+                Software developer Java backend developer in services for Insurance and vehicle remarketing industries.
+            </p>
+        </article>
+        <article class="education">
+            <h1>Education</h1>
+            <p><span class="italic">2016</span><br/>
+                Belarus State University of Informatics and Radioelectronics Bachelor Degree. Faculty of Computer Systems and Networks. Specialization – software-engineer<br/><br/>
+                <span class="italic">2014</span><br/>
+                Java course ITechArt. Basic Java language. Development methodology. OOP. Arrays. Conditions. Methods. Java Bean. Collections. Interfaces. JDBC. MVC model.</br>
+                Maven. Git. JSP. MySQL. XML. Hibernate.
+            </p>
+        </article>
+        <article class="english">
+            <h1>English</h1>
+            <p><span class="italic">2014-2015</span></br>
+                English course at BSUIR
+               Intermediate level. Strong level of reading and understanding.
+            </p>
+        </article>
+    </main>
 </body>
 
 </html>
